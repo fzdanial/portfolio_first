@@ -1,9 +1,6 @@
 [build]
   command = "CI= npm run build"
 
-[[plugins]]
-  package = "@netlify/plugin-emails"
-
 [[redirects]]
   from = "/*"
   to = "/index.html"
