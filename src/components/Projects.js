@@ -1,8 +1,8 @@
 // src/components/Projects.js
 
-import { CodeIcon } from "@heroicons/react/solid"
-import React from "react"
-import { projects } from "../data"
+import { CodeIcon } from "@heroicons/react/solid";
+import React from "react";
+import { projects } from "../data";
 
 export default function Projects() {
     return (
@@ -24,6 +24,8 @@ export default function Projects() {
                             href={project.link} 
                             key={project.image} 
                             className="sm:w-1/2 w-100 p-4"
+                            target="_blank" 
+                            rel="noopener noreferrer"  
                         >
                             <div className="flex relative">
                                 {/* to edit all these later, check the data.js files */}

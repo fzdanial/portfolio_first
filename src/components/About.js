@@ -9,13 +9,11 @@ export default function About() {
                 <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                     <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
                         Hi, I'm Danial
-                        <br className="hidden lg:inline-block"/> I love to build amazing apps, and develop insights from data.
+                        <br className="hidden lg:inline-block"/> I love telling an encapsulating story from data via visual design.
                     </h1>
                     <p className="mb-8 leading-relaxed">
-                        With a Bachelor's in Physics, 
-                        combined with prior experiences in data science and analytics,
-                        as well as passion for software development,
-                        I am a jack of all trades when it comes to programming. 
+                        A self-trained data scientist and full-stack developer.
+                        All data has stories to tell, and I vow to listen, interpret, and harness their potential. 
                     </p>
                     <div className="flex justify-center">
                         <a 
@@ -25,7 +23,8 @@ export default function About() {
                         </a>
                         <a 
                             href= "#projects"
-                            className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+                            className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"   
+                        >
                                 See my past work
                         </a>
                     {/* </div>
@@ -42,7 +41,7 @@ export default function About() {
                     <img
                         className="object-cover object-center rounded"
                         alt="hero"
-                        src="./coding.svg" 
+                        src="./logo.svg" 
                         /* need to edit this svg to my own can use canva*/
                     />
                 </div>
