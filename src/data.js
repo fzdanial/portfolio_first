@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "MERN Stack",
     description:
       "Empty",
-    image: "./project-1.gif",
+    image: "./logo.svg",
     link: "https://github.com/fzdanial",
   },
   {
@@ -12,7 +12,7 @@ export const projects = [
     subtitle: "Ruby on Rails",
     description:
     "Empty",
-    image: "./project-2.gif",
+    image: "./logo.svg",
     link: "https://github.com/fzdanial",
   },
   {
@@ -20,7 +20,7 @@ export const projects = [
     subtitle: "Python",
     description:
     "Empty",
-    image: "./project-3.gif",
+    image: "./logo.svg",
     link: "https://github.com/fzdanial",
   },
   {
@@ -28,7 +28,7 @@ export const projects = [
     subtitle: "Tensorflow",
     description:
     "Empty",
-    image: "./project-4.gif",
+    image: "./logo.svg",
     link: "https://github.com/fzdanial",
   },
 ];
